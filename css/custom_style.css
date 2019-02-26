@@ -69,3 +69,19 @@ ul.sc_list.sc_list_style_iconed li.sc_list_marked_yes ,
 ul.sc_list.sc_list_style_ul li,
 ol.sc_list.sc_list_style_ol li,
 .sc_slider.sc_slider_dark .slider-control-nav li a:hover{color: #80b500;}
+
+/*Slider*/
+.slider_image_1 {background-image:url(../images/1.jpg);}
+.slider_image_2 {background-image:url(../images/2.jpg);}
+.slider_image_3 {background-image:url(../images/3.jpg);}
+.slider_image_4 {background-image:url(../images/1.jpg);}
+.slider_image_5 {background-image:url(../images/2.jpg);}
+.slider_image_6 {background-image:url(../images/3.jpg);}
+.slider_image_7 {background-image:url(../images/1.jpg);}
+
+
+.sc_slider.sc_slider_style_1{
+    
+    height: 500px;
+    margin-bottom: 50px;
+}
