@@ -195,10 +195,10 @@
 .sc_infobox.sc_infobox_style_success .sc_infobox_title{ color:#fff; }
 
 .sc_infobox.sc_infobox_closeable{ cursor: pointer; }
-.sc_infobox.sc_infobox_closeable:before { content: '\e822'; font-family: "fontello"; cursor:pointer; font-size:18px; line-height:18px; width:18px; height:18px; display:block; float: right; margin:2px 0 20px 20px ;}
+.sc_infobox.sc_infobox_closeable:before { content: '\e822'; font-family: 'Roboto', sans-serif; cursor:pointer; font-size:18px; line-height:18px; width:18px; height:18px; display:block; float: right; margin:2px 0 20px 20px ;}
 
 .sc_infobox.sc_infobox_horizontal.sc_infobox_closeable:before{content: none;}
-.sc_infobox.sc_infobox_horizontal.sc_infobox_closeable:after { content: '\e800'; vertical-align: middle; font-family: "fontello"; cursor:pointer; font-size:18px; line-height:18px; width:18px; height:18px; display:block; padding-left: 20px; display: table-cell;}
+.sc_infobox.sc_infobox_horizontal.sc_infobox_closeable:after { content: '\e800'; vertical-align: middle; font-family: 'Roboto', sans-serif; cursor:pointer; font-size:18px; line-height:18px; width:18px; height:18px; display:block; padding-left: 20px; display: table-cell;}
 
 .sc_infobox .sc_infobox_title {font-weight: 400; font-size: 20px; letter-spacing: 5px; }
 
@@ -317,7 +317,7 @@
 /*icon*/
 .sc_toggl.sc_toggl_icon_left .sc_toggl_item .sc_toggl_title:before{ left:10px; }
 .sc_toggl.sc_toggl_icon_right .sc_toggl_item .sc_toggl_title:before{ right: 10px;}
-.sc_toggl.sc_toggl_icon_show .sc_toggl_item .sc_toggl_title:before { font-family: "fontello"; content: '\e821'; display:block; text-align:center; font-size:12px;  position:absolute; top:50%; width:30px; height:30px; line-height:30px; margin: -15px 0 0 0; z-index: 1; }
+.sc_toggl.sc_toggl_icon_show .sc_toggl_item .sc_toggl_title:before { font-family: 'Roboto', sans-serif; content: '\e821'; display:block; text-align:center; font-size:12px;  position:absolute; top:50%; width:30px; height:30px; line-height:30px; margin: -15px 0 0 0; z-index: 1; }
 .sc_toggl.sc_toggl_icon_show .sc_toggl_item.sc_active .sc_toggl_title:before{ content: '\e824'; }
 /*counter*/
 .sc_toggl .sc_toggl_item .sc_toggl_title .sc_items_counter{ position: absolute; top: 50%; width: 40px; text-align: center; line-height: 30px; height: 30px; margin: -15px 0 0 0;}
@@ -561,7 +561,7 @@
 	     -o-transition: all 0.3s ease-out;
 	        transition: all 0.3s ease-out;  }
 .sc_pricing_table .sc_pricing_item ul li .sc_icon{ width: 16px; height: 16px; display: inline-block;  vertical-align: middle; }
-.sc_pricing_table .sc_pricing_item ul li .sc_icon:before{ font-family: "fontello";  display: block; width: 16px; height: 16px; line-height: 16px; text-align: center; font-size: 16px; }
+.sc_pricing_table .sc_pricing_item ul li .sc_icon:before{ font-family: 'Roboto', sans-serif;  display: block; width: 16px; height: 16px; line-height: 16px; text-align: center; font-size: 16px; }
 
 .sc_pricing_table .sc_pricing_item:hover {}
 .sc_pricing_table .sc_pricing_item:hover ul.sc_columns_animate{ z-index: 2; margin:  -20px 0 -20px 0; outline: 1px solid #eaeaea;}
@@ -763,11 +763,11 @@ a.sc_icon:hover{ background-color: #eb423f !important; color: #fff !important; b
 .sc_title.sc_title_icon_box_circle span.icon{ background-color: #fee;}
 
 /*styles*/
-.sc_title.sc_title_style_1 {font-weight:500;color:#1a1a1a;text-transform: uppercase;font-size: 36px;line-height: 43px;font-family: 'Cantarell', sans-serif;}
+.sc_title.sc_title_style_1 {font-weight:500;color:#1a1a1a;text-transform: uppercase;font-size: 36px;line-height: 43px;font-family: 'Roboto', sans-serif;}
 .sc_title.sc_title_style_2 {font-weight:700;color:#3f2803;text-transform: uppercase;font-size: 14px;}
 .sc_title.sc_title_style_3 {text-transform: none;}
-.sc_title.sc_title_style_4 {font-size: 36px;line-height: 43px;font-family: 'Cantarell', sans-serif;text-transform: initial;font-weight: 500;}
-.sc_title.sc_title_style_5 {font-size: 24px;line-height: 29px;font-family: 'Cantarell', sans-serif;text-transform: initial;font-weight: 500;letter-spacing: 0;}
+.sc_title.sc_title_style_4 {font-size: 36px;line-height: 43px;font-family: 'Roboto', sans-serif;text-transform: initial;font-weight: 500;}
+.sc_title.sc_title_style_5 {font-size: 24px;line-height: 29px;font-family: 'Roboto', sans-serif;text-transform: initial;font-weight: 500;letter-spacing: 0;}
 .sc_title.sc_title_normal {font-weight:500;}
 .sc_title.white_color {color: #fff;}
 
@@ -1274,7 +1274,7 @@ a.sc_icon:hover{ background-color: #eb423f !important; color: #fff !important; b
 .sc_blogger.style_list{ margin: 0; padding: 0 0 0 30px; }
 .sc_blogger.style_list li{ color: #4c4841; list-style: none; position: relative; margin: 0; font-size: 16px;}
 .sc_blogger.style_list li + li { margin: 15px 0 0 0;}
-.sc_blogger.style_list li:before{ content: '\e819'; font-family: "fontello"; color: #cecece; width: 14px; height: 14px; text-align: center; line-height: 14px; font-size: 12px; position: absolute; left: -30px; top: 7px; }
+.sc_blogger.style_list li:before{ content: '\e819'; font-family: 'Roboto', sans-serif; color: #cecece; width: 14px; height: 14px; text-align: center; line-height: 14px; font-size: 12px; position: absolute; left: -30px; top: 7px; }
 .sc_blogger.style_list li a{ color: #4c4841; }
 .sc_blogger.style_list li a:hover{ color: #80b500; }
 
